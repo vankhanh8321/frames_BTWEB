@@ -1,0 +1,43 @@
+.dat_tour{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.form_dat_tour{
+    display: inline-block;
+}
+h1{
+    color:blue;
+}
+table{
+    width: 600px;
+    border-spacing: 1px;
+    border:none;
+    color:blue;
+    background-color:blue;
+    text-align: left;
+}
+td{
+    background-color:rgb(239, 255, 177);
+    padding:10px;
+}
+#so_khach{
+    width:500px;
+    margin: auto;
+}
+.button{
+    text-align: center;
+}
+.thong_bao{
+    text-align:center;
+}
+#dia_chi{
+    width:300px;
+    height:80px;
+}
+#ghi_chu{
+    width:300px;
+    height:80px;
+}
+#button{
+    background-image: linear-gradient(to bottom, rgb(253, 253, 174), rgb(238, 238, 211));
+}

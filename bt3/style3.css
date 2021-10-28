@@ -1,0 +1,36 @@
+.note{
+    background-color: #91909000;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    color: #03ee03;
+    margin-top: 100px;
+    font-style: normal;
+}
+b{
+    text-decoration: underline 2px;
+    font-style: normal;
+}
+sub{
+    color: red;
+}
+span{
+    color: red;
+    font-style: normal;
+}
+pre{
+    margin-left: 400px;
+}
+.two{
+    background-color: #CCCCCC;
+    color: blue;
+    margin-right: 405px;
+    margin-left: 15px;
+    font-style: normal;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin-top: -15px;
+}

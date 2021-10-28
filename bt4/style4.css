@@ -1,0 +1,43 @@
+h1.page-header{
+    text-align: center;
+    color: #FF6600;
+    border-style: double;
+    border-color: #00FF01;
+}
+h1.N{
+    color: #00FF01;
+    font-style: italic;
+}
+.notee{
+    margin-top: -43px;
+    margin-left: 25px;
+}
+img.motnguoi{
+    float: right;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+img.cuu{
+    float: left;
+    margin-right: 20px;
+}
+img.hoa{
+    float: right;
+    width:5%;
+}
+u{
+    background-color: #FF6600;
+}
+h2{
+    color: #FFFFFF;
+    padding-left:86%;
+    background-color: #00FF00;
+}
+img.son{
+    float: right;
+    width:5%;
+}
+img.cay{
+    float: right;
+    width:5%;
+}

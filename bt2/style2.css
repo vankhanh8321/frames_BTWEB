@@ -1,0 +1,31 @@
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #CCCC00;
+    text-align: center;
+    margin-top: 50px;
+}
+#main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+p{
+    color: white;
+    text-indent: 75px;
+    font-family:arial,helvetica,sans-serif;
+}
+.one{
+    color: red;
+}
+.two{
+    color: #CC7A01;
+}
+.three{
+    color: #01CC01;
+}
+.four{
+    color:#CC00CC;
+}

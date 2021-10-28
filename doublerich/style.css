@@ -1,0 +1,55 @@
+body{
+    background-color:#9A0000;
+    background-image:url(./img/rose.png),url(./img/kim-tea-hee.png), url(./img/nen-hoa-hong.png);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-position:150px 480px ,50px 50px, 900px 350px;
+}
+tr{
+    color:white;
+}
+table{
+    margin-top: 70px;
+    margin-left:400px;
+    border: 1px solid white;
+    width: 800px;
+    height: 550px;
+}
+.img-responsive
+{
+    width: 50px;
+    height: 50px;
+}
+img{
+    margin-top: 0px;
+    width:250px;
+    height: 150px;
+    margin-left: 5px;
+}
+ul,li{
+    margin-left: 15px;  
+}
+ul,ol{
+    margin: 20px;
+}
+.main{
+    list-style-type: square;
+}
+.cong_nghe_dtoc{
+    background-color:#FE0000;
+    font-size:25px;
+}
+.toasang ,.img-responsive{
+    background-color:#FECCFF;
+}
+.toasang{
+    color:#FE0002;
+    font-size: 30px;
+}
+span{
+    font-weight: bold;
+    font-size:18px ;
+    color:#F90102;
+}
+.ul2{
+    padding-left: 50px;
+}

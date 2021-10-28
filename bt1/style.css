@@ -1,0 +1,30 @@
+h1{
+   text-align: center;
+   background-color: #FECCFF;
+   color: #FE019A;
+   padding: 10px;
+}
+p{
+    text-align: center;
+}
+hr{
+    width: 25%;  
+}
+div{
+    background-color: #FFFFCD;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-size: 20px;
+}
+.one{
+    color: #0002FD;
+    padding-top: 20px;
+}
+.two{
+    color: #9B0099;
+}
+.three{
+    color: #019A02;
+    padding-bottom: 20px;
+}

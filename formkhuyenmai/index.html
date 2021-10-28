@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/xuly.js"></script>
+    <title>Document</title>
+</head>
+<body onload="hoten.focus()">
+    <div id="form_khuyen_mai">
+        <div class="h2">
+            <h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+        </div>
+        <div class="form_khuyen_mai">
+            <form id="form_km" action="" method="post">
+                <table>
+                    <tr>
+                        <td class="aside_right">Họ tên</td>
+                        <td>
+                            <input type="text" id="hoten">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Địa chỉ</td>
+                        <td>
+                            <textarea id="address"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Điện thoại</td>
+                        <td>
+                            <input type="tel" id="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Giới tính</td>
+                        <td>
+                            <input type="radio" id="Nam" name="gioi_tinh" value="Nam" checked="checked">
+                            <label for="Nam">Nam</label>
+                            <input type="radio" id="Nữ" name="gioi_tinh" value="Nữ">
+                            <label for="Nữ">Nữ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Nghề nghiệp</td>
+                        <td>
+                            <select id="job" name="job">
+                                <option value="Giáo viên">Giáo viên</option>
+                                <option value="Công chức">Công chức</option>
+                                <option value="Bác sĩ">Bác sĩ</option>
+                                <option value="Công nhân">Công nhân</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Chọn sản phẩm tham gia</td>
+                        <td>
+                            <select size="4" id="san_pham" multiple="multiple" name="san_pham">
+                                <option value="1" selected="selected">Kem đánh răng</option>
+                                <option value="2">Bột giặt</option>
+                                <option value="3">Sữa tắm</option>
+                                <option value="4">Dầu gội</option>
+                                <option value="5">Sữa rửa mặt</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="aside_right">Số người dự đoán tham gia</td>
+                        <td>
+                            <input type="number" id="number" value="0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" id="button" value="Đồng ý" onclick="return gui_thong_tin()">
+                        </td>
+                    </tr>
+                </table>
+                <h4 id="chaoban"></h4>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

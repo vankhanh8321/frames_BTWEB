@@ -1,0 +1,143 @@
+body{
+    background-image: url(./img/co-vietnam.png);
+    background-position: center 20px;
+    background-repeat: repeat-y;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+.vietnam{
+    float: left;
+}
+.VietNamInTheWorld{
+    width:250px;
+    height:250px;
+    float: right;
+}
+ul,p.header{
+    margin-top: 10px;
+    padding-left:300px;
+}
+p:not(.header .hanoi-p2){
+    margin-left: 10px;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:not(.dautrang):visited {
+    color: rgb(243, 138, 18);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.dautrang{
+    text-align: right;
+    color:blue;
+}
+.hanoi{
+    background-color: red;
+    color: white;
+    text-align:left;
+    padding-left:10px;
+}
+.page-hn{
+    margin: 0px 10px;
+}
+.img-hoguom{
+    float:left;
+    width:250px;
+    height: 250px;
+    margin-top: 20px;
+}
+.h{
+    float: left;
+    margin-top: 30px;
+}
+.hanoi-p{
+    margin-top:10px;
+    padding-left: 250px;
+}
+.img-lang{
+    float :right;
+    width:250px;
+    height:200px;
+}
+.page-hue{
+    margin: 0px 10px;
+}
+.hue{
+    background-color:purple;
+    color:white;
+    text-align:left;
+    padding-left:10px;
+}
+.h-tim{
+    float:left;
+}
+.p-hue{
+    margin-top:10px;
+}
+.cau{
+    display: block; margin-left: auto; margin-right: auto;
+    width:600px;
+    height:400px;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+    margin: 15px;
+    display:block;
+    text-align:center;
+}
+.dien{
+    width:350px;
+    height:250px;
+    float: left;
+}
+.hue-p{
+    padding-left: 350px;
+}
+.dai-noi{
+    width:300px;
+    height:200px;
+    float :right;
+}
+.hcm{
+    background-color:rgb(226, 80, 178);
+    color:white;
+    text-align:left;
+    padding-left:10px;
+}
+.t{
+    float: left;
+}
+.cho{
+    display: block; margin-left: auto; margin-right: auto;
+    width:450px;
+    height:300px;
+}
+td.center{
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+}
+audio{
+    position:fixed;
+    bottom:30px;
+    right: 10px;
+}

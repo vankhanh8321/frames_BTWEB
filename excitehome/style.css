@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+    background-image: url(./img/background.gif);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.main{
+    margin-top:50px;
+    margin-left: 450px;
+    margin-right:414px;
+    background-color:black;
+}
+p,b{
+    text-align: left;
+    color: white;
+}
+a{
+    color:red;
+}
+.footer{
+    padding-top: 100px;
+    font-size:12px;
+}

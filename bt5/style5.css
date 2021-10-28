@@ -1,0 +1,46 @@
+@font-face {
+    font-family: khanh;
+    src: url("../bt5/font/UTM\ Wedding\ K&T.ttf");
+}
+body{
+    background-image: url("../bt5/img/nen-hoa-hong.jpg");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: 55%;
+}
+h1{
+    text-align:center;
+    font-size:300%;
+    font-family: khanh;
+    color: #FFFEFA;
+    text-shadow: 1px 1px 2px rgb(243, 78, 215), 0 0 25px rgb(240, 66, 217), 0 0 5px rgb(209, 16, 151);
+    
+}
+img{
+    margin-left: 100px;
+}
+div{
+    margin-left: 530px;
+    margin-top: -350px;
+}
+li.hoa{
+    list-style-image: url("../bt5/img/bullet-hoa-tim.png");
+}
+li.tron{
+    list-style-image: url("../bt5/img/bullet-tron-hong.png");
+}
+hr{
+    margin-left: -15px;
+    margin-right: 300px;
+}
+span{
+    background-color: #F10091;
+    color:white;
+}
+p{
+    margin-left: 25px;
+}
+a{
+    color: #FF009C;
+    text-decoration: none;
+}
